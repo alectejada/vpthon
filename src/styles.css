@@ -3,3 +3,25 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+body {
+  padding-top: 56px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+
+  }
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 136px);
+  margin-bottom: 20px;
+}
+
+.lms-footer {
+  height: 60px;
+  width: 100%;
+  border-top: 2px solid #f3f3f3;
+}
