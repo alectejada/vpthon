@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top">
       <div class="container">
         <a [routerLink]="['/home']" class="" href="#">
-          <img style="max-height:50px" src="./images/logo.png" />
+          <img style="max-height:80px" src="./images/logo.png" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -15,16 +15,16 @@ import { Component } from '@angular/core';
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-              <a  [routerLink]="['/charlass']" class="nav-link" href="#"><img style="max-height:50px" src="./images/charlas.png" alt="charlas"></a>
+              <a  [routerLink]="['/charlas']" class="nav-link" href="#"><img style="max-height:60px" src="./images/charlas.png" alt="Charlas"></a>
             </li>
             <li class="nav-item">
-              <a  [routerLink]="['/path']" class="nav-link" href="#"><img style="max-height:50px" src="./images/trayectoria.png" alt="Paths"></a>
+              <a  [routerLink]="['/path']" class="nav-link" href="#"><img style="max-height:60px" src="./images/trayectoria.png" alt="Paths"></a>
             </li>
             <li class="nav-item">
-              <a [routerLink]="['/courses']" class="nav-link" href="#"><img style="max-height:50px" src="./images/cursos.png" alt="Cursos"></a>
+              <a [routerLink]="['/courses']" class="nav-link" href="#"><img style="max-height:60px" src="./images/cursos.png" alt="Cursos"></a>
             </li>
             <li class="nav-item">
-              <a [routerLink]="['/login']" class="nav-link" href="#"><img style="max-height:50px" src="./images/acceder.png" alt="login"></a>
+              <a [routerLink]="['/login']" class="nav-link" href="#"><img style="max-height:60px" src="./images/acceder.png" alt="Login"></a>
             </li>
           </ul>
         </div>
@@ -37,4 +37,4 @@ import { Component } from '@angular/core';
     </div>
   `,
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {  }
