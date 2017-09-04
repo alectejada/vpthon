@@ -6,23 +6,23 @@ import { Component } from '@angular/core';
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img style="max-height:50px" src="./images/logo.PNG"></a>
+        <a class="navbar-brand" href="#"><img style="max-height:60px" src="./images/logo.PNG"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-              <a  [routerLink]="['/charlass']" class="nav-link" href="#"><img style="max-height:50px" src="./images/charlas.png" alt="charlas"></a>
+              <a  [routerLink]="['/charlas']" class="nav-link" href="#"><img style="max-height:60px" src="./images/charlas.png" alt="Charlas"></a>
             </li>
             <li class="nav-item">
-              <a  [routerLink]="['/path']" class="nav-link" href="#"><img style="max-height:50px" src="./images/trayectoria.png" alt="Paths"></a>
+              <a  [routerLink]="['/path']" class="nav-link" href="#"><img style="max-height:60px" src="./images/trayectoria.png" alt="Paths"></a>
             </li>
             <li class="nav-item">
-              <a [routerLink]="['/cursos']" class="nav-link" href="#"><img style="max-height:50px" src="./images/cursos.png" alt="Cursos"></a>
+              <a [routerLink]="['/cursos']" class="nav-link" href="#"><img style="max-height:60px" src="./images/cursos.png" alt="Cursos"></a>
             </li>
             <li class="nav-item">
-              <a [routerLink]="['/login']" class="nav-link" href="#"><img style="max-height:50px" src="./images/acceder.png" alt="login"></a>
+              <a [routerLink]="['/login']" class="nav-link" href="#"><img style="max-height:60px" src="./images/acceder.png" alt="Login"></a>
             </li>
           </ul>
         </div>
