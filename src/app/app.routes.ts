@@ -7,9 +7,14 @@ import {
   LoginComponent,
 } from './login.component';
 
+import {
+  CoursesComponent,
+} from './courses.component';
+
 const routes: Route[] = [
     { path: 'home', component: HomeComponent },
     { path: 'login', component: LoginComponent },
+    { path: 'courses', component: CoursesComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full'}
 ];
 

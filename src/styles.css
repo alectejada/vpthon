@@ -19,12 +19,43 @@ body {
 .content-wrapper {
   min-height: calc(100vh - 136px);
   margin-bottom: 20px;
+  padding-top: 60px;
 }
 
 .lms-footer {
   height: 60px;
   width: 100%;
   border-top: 2px solid #f3f3f3;
+}
+
+.lms-component {
+  padding: 10px;
+}
+
+.lms-course {
+  height: 200px;
+  border: 1px solid #343a40;
+}
+
+.lms-course-box {
+  padding: 10px;
+  border: 1px solid #343a40;
+}
+
+.lms-course-author {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #343a40;
+}
+
+.lms-course-title {
+  font-size: 1.4em;
+  min-height: 130px;
+  padding: 10px;
+}
+
+.lms-course-description {
+  font-size: 11px;
 }
 
 .panel-body {

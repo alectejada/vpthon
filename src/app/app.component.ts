@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img style="max-height:50px" src="./images/logo.PNG"></a>
+        <a [routerLink]="['/home']" class="" href="#">
+          <img style="max-height:50px" src="./images/logo.png" />
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,7 +21,7 @@ import { Component } from '@angular/core';
               <a  [routerLink]="['/path']" class="nav-link" href="#"><img style="max-height:50px" src="./images/trayectoria.png" alt="Paths"></a>
             </li>
             <li class="nav-item">
-              <a [routerLink]="['/cursos']" class="nav-link" href="#"><img style="max-height:50px" src="./images/cursos.png" alt="Cursos"></a>
+              <a [routerLink]="['/courses']" class="nav-link" href="#"><img style="max-height:50px" src="./images/cursos.png" alt="Cursos"></a>
             </li>
             <li class="nav-item">
               <a [routerLink]="['/login']" class="nav-link" href="#"><img style="max-height:50px" src="./images/acceder.png" alt="login"></a>
